@@ -8,17 +8,24 @@
     <style>
         body{
             margin: 0;
+            background-color: #11262a;
+            color: white;
         }
         .container{
             position: relative;
             height: 800px;
         }
+        .container img{
+            width: 100%;
+            height: 100%;
+        }
         nav{
             width: 100%;
             height:70px;
-            background-color: #1c2a44;
+            background-color: #0c1d25;
             position: fixed;
             top: 0;
+            box-shadow: 3px 3px #fbb844;
         }
         nav .elements{
             position: absolute;
@@ -29,16 +36,20 @@
             margin-right: 20px; 
             color: white;
             text-decoration: none;
+            font-size: 20px;
             
         }
         .form{
             position: absolute;
             top: 30%;
-            left: 35%;
+            left: 37%;
         }
         form input{
             padding: 10px 20px 20px 10px;
             margin-bottom: 20px;
+            border-radius: 10px;    /* change*/
+            border: 1px solid gray;  /* change*/
+
         }
         form input:focus{
             border:2px solid #1c2a44;
@@ -53,21 +64,37 @@
             margin-right: 15px;
             width: 86px;
         }
+        input:nth-child(12){
+            padding: 2px;
+            margin-left: 0px;
+            margin-bottom: 20px;
+        }
+        input:nth-child(13){
+            padding: 10px 1px 20px 10px;
+            margin-left: 0px;
+        }
         button{
             border: none;
             padding: 10px 20px;
-            background-color: #1c2a44;
+            background-color: #fbb844;
             color: white;
             transition: all 1s;
+            border-radius: 3px;
+            cursor: pointer;
         }
         button:hover{
             background-color: white;
             color: #1c2a44;
         }
+        form h3{
+            margin-top: -10px;
+        }
+        
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- <img src="Image/iStock-1072035598-400x257.jpg" alt="cover2"> -->
         <nav class="nav">
             <div class="elements">
                 <a href="home.html">Home</a>
@@ -81,6 +108,7 @@
 
 
         <div class="form">
+            <h1>STUDENT INFO</h1>
             <form action="">
                 
                 <input type="text" placeholder="Name"> <br>
@@ -93,23 +121,27 @@
                 <datalist id="Gender">
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
-                    
                 </datalist>
                 <input type="text" placeholder="Level"><br>
-                Student State: <br> <br>
-                <input type="radio" name="s"> Active <br>
-                <input type="radio" name="s"> inActive <br>
-                
-
                 <input list="Department" placeholder="Department">
                 <datalist id="Department">
                     <option value="DS">DS</option>
                     <option value="CS">CS</option>
                     <option value="IS">IS</option>
                     <option value="IT">IT</option>
+                    <option value="AI">AI</option>
                 </datalist>
+
+                <input type="text" placeholder="Phone"> <br> <br>
+
+                <h3>Student Status:</h3>
+                <input type="radio" name="s"> Active <br>
+                <input type="radio" name="s"> inActive <br>
                 
-                <input type="text" placeholder="Phone">
+
+                
+                
+                
             </form>
             <button>ADD STUDENT</button>
         </div>
