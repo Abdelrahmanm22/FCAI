@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: #dadadc;
+            color: white;
+        }
+        .container{
+            position: relative;
+            height: 800px;
+        }
+        .container img{
+            width: 100%;
+            height: 100%;
+        }
+        nav{
+            width: 100%;
+            height:70px;
+            background-color: #0c1d25;
+            position: fixed;
+            top: 0;
+            box-shadow: 3px 3px #fbb844;
+        }
+        nav .elements{
+            position: absolute;
+            left: 200px;
+            top: 30px;
+        }
+        .elements a{
+            margin-right: 20px; 
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .info{
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            
+            width: 600px;
+            height: 550px;
+            border: 5px solid silver;
+            padding: 25px;
+            position: relative;
+        }
+        .info span{
+            /* margin: 80px; */
+            font-size: 20px;
+            color: black;
+            padding-top: 20px;
+        }
+        .info input{
+            float: right;
+            padding: 15px;
+            border-radius:5px 10px;
+            border: 1px solid black;
+            /* padding-top: 20px; */
+        }
+        button {
+            position: fixed;
+            bottom: 395px;
+            left: 870px;
+            padding: 10px;
+            background-color: #0c1d25;
+            border: 1px solid  black;
+            color: #dadadc;
+            width: 80px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <div class="elements">
+                <a href="home.html">Home</a>
+                <a href="AddStudent.html">Add Student</a>
+                <a href="UpdateInfo.html">Update Info</a>
+                <a href="Search.html">Search</a>
+                <a href="Department.html">Department</a>
+                <a href="Login.html">Login</a>
+            </div>
+        </nav>
+        <div class="info">
+            <span>Name: </span>
+            <input type="text" value="Zyad Ashraf" disabled>
+
+            <br> <br> <br> <br>
+
+            <span>ID: </span>
+            <input type="text" value="20200293" disabled>
+
+            <br> <br> <br> <br>
+
+            <span>Department: </span>
+            <input list="Department" >
+                <datalist id="Department">
+                    <option value="DS">DS</option>
+                    <option value="CS">CS</option>
+                    <option value="IS">IS</option>
+                    <option value="IT">IT</option>
+                    <option value="AI">AI</option>
+                </datalist>
+
+            <button>Submit</button>
+
+        </div>
+    </div>    
+</body>
+</html>
