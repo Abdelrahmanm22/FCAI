@@ -1,0 +1,402 @@
+body{
+    margin: 0;
+    color: white;
+    background-color: #1c2a44;
+}
+.container{
+    position: relative;
+}
+.container img{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height:70px;
+    background-color: #0c1d25;
+    position: fixed;
+    top: 0;
+    box-shadow: 3px 3px #fbb844;
+}
+nav .elements{
+    position: absolute;
+    left: 200px;
+    top: 30px;
+}
+.elements a{
+    margin-right: 20px; 
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+/* style home-------------------------------------------------------------------------------------------------- */
+
+.text{
+    width: 570px;
+    height: 465px;
+    /* background-color: #1c2a44; */
+    position: absolute;
+    top: 218px;
+    left: 423px;
+}
+.text img{
+    width: 80%;
+    height: 100%;
+}
+.text h1{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    color: white;
+    font-size: 50px;
+}
+.text p{
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    color: white;
+    font-size: 20px;
+}
+.text button{
+    position: absolute;
+    top: 350px;
+    left: 40px;
+    /* color: white; */
+    background-color: #1c2a44;
+    font-size: 20px;
+    /* text-decoration: none; */
+    border: none;
+    padding: 10px 10px;
+    /* margin-bottom: 20px; */
+}
+.text button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* style home-------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* style login-------------------------------------------------------------------------------------------------- */
+
+.form2 {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    padding-top: 300px;
+    padding-right: 70px;
+}
+
+.form2 form input {
+    padding: 10px 20px 20px 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 40px;
+}
+
+.form2 form input:first-child {
+    width: 361px;
+}
+
+.btnLOGIN {
+    border: none;
+    padding: 10px 20px;
+    background-color: #fbb844;
+    border-radius: 3px;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btnLOGIN:hover {
+    background-color: white;
+    /* color: #1c2a44; */
+}
+.btnLOGIN:hover a{
+    /* background-color: white; */
+    color: #1c2a44;
+}
+.form2 form a{
+    /* text-decoration: none; */
+    color: white;
+}
+
+/* style login-------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* style search----------------------------------------------------------------------------------------------------- */
+
+.table1 {
+    position: absolute;
+    top: 250px;
+    left:50px ; 
+    width: 90%;
+
+}
+.table1 tr th{
+    background-color:#1c2a44;
+    color:white ;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #dddddd;
+}
+.table1 tr td{
+    background-color: white;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #dddddd;
+}
+.Search_Bar{
+    position: absolute;
+    top: 200px;
+    right: 150px;
+    border: solid #1c2a44;
+    background-color: #1c2a44;
+    border: none;
+
+}
+.Search_Bar input[type=text]{
+    width: 250px;
+    height: 30px;
+    left: 20px;
+}
+
+.btnSearch{
+    position: absolute;
+    top: 200px;
+    right: 60px;
+    height: 30px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #1c2a44;
+    color: white;
+    transition: all 1s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btnSearch:hover{
+    background-color: white;
+    color: #1c2a44;
+}
+
+/* style search----------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* style Update------------------------------------------------------------------------------------------- */
+
+
+.table2 {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    width: 90%;
+
+}
+
+.table2 tr th {
+    background-color: #1c2a44;
+    color: white;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #dddddd;
+}
+
+.table2 tr td {
+    background-color: white;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #dddddd;
+}
+
+.Search_Bar2 {
+    position: absolute;
+    width: 250px;
+
+    top: 200px;
+    right: 150px;
+    border: solid #1c2a44;
+    background-color: #1c2a44;
+    border: none;
+
+}
+
+.Search_Bar2 input {
+    width: 100%;
+    padding: 5px;
+
+}
+
+.button {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+.Search_Bar2 .btnUpdate {
+    position: absolute;
+    top: 0px;
+    right: -103px;
+    height: 30px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #fbb844;
+    color: white;
+    transition: all 1s;
+}
+
+.btnUpdate:hover {
+    background-color: white;
+    color: #1c2a44;
+}
+.buttons{
+    position: fixed;
+    bottom: 155px;
+    right: 146px;
+    
+}
+.buttons .btnUpdate{
+    padding: 10px;
+    padding: 10px;
+    background-color: #fbb844;
+    border: 1px solid  black;
+    color: white;
+    width: 80px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.buttons .btnUpdate:hover{
+    background-color: white;
+    color: #fbb844;
+}
+
+/* style Update------------------------------------------------------------------------------------------- */
+
+
+
+
+/* style Add---------------------------------------------------------------------------------------------- */
+
+.form1{
+    position: absolute;
+
+    margin-top: 150px;
+    /* top: 30%; */
+    left: 37%;
+}
+.form1 form input{
+    padding: 10px 20px 20px 10px;
+    margin-bottom: 20px;
+    border-radius: 7px;    /* change*/
+    border: 1px gray;  /* change*/
+
+}
+.form1 form input:focus{
+    border:2px #1c2a44;
+}
+.form1 form input:first-child,:nth-child(6){
+    width: 361px;
+}
+.form1 form input:nth-child(3){
+    margin-right: 15px;
+}
+.form1 form input:nth-child(8) ,.form1 form:nth-child(9),.form1 form:nth-child(11){
+    margin-right: 15px;
+    width: 86px;
+}
+.form1 form input:nth-child(12){
+    padding: 2px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.form1 form input:nth-child(13){
+    padding: 10px 1px 20px 10px;
+    margin-left: 4px;
+}
+
+.form1 form h3{
+    margin-top: -10px;
+}
+.btnADD{
+    border: none;
+    padding: 10px 20px;
+    background-color: #fbb844;
+    color: white;
+    transition: all 0.5s;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btnADD:hover {
+    background-color: white;
+    color: #1c2a44;
+}
+
+/* style Add---------------------------------------------------------------------------------------------- */
+
+
+/*style Department--------------------------------------------------------------------------------------- */
+
+
+.info{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    margin-top: 150px;
+    
+    width: 600px;
+    height: 550px;
+    border: 5px solid silver;
+    padding: 25px;
+    /* position: relative; */
+}
+.info span{
+    /* margin: 80px; */
+    font-size: 20px;
+    color: black;
+    padding-top: 20px;
+}
+.info input{
+    float: right;
+    padding: 15px;
+    border-radius:5px 10px;
+    border: 1px solid black;
+    /* padding-top: 20px; */
+}
+.btnDPT {
+    position: absolute;
+    bottom: 220px;
+    left: 285px;
+    margin-top: 60px;
+    padding: 10px;
+    background-color: #0c1d25;
+    border: 1px solid  black;
+    color: #dadadc;
+    width: 80px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+
+/*style Department--------------------------------------------------------------------------------------- */

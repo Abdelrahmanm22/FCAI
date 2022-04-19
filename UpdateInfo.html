@@ -4,139 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>
         Update
     </title>
-    <style>
-        body {
-            margin: 0;
-            position: relative;
-            background-color: #11262a;
-        }
-
-        .container {
-            position: relative;
-        }
-
-        nav {
-            width: 100%;
-            height: 70px;
-            background-color: #0c1d25;
-            position: fixed;
-            top: 0;
-            box-shadow: 3px 3px #fbb844;
-            font-size: 20px;
-            z-index: 1;
-
-        }
-
-        nav .elements {
-            position: absolute;
-            left: 200px;
-            top: 30px;
-        }
-
-        .elements a {
-            margin-right: 20px;
-            color: white;
-            text-decoration: none;
-
-        }
-
-        table {
-            position: absolute;
-            top: 250px;
-            left: 50px;
-            width: 90%;
-
-        }
-
-        th {
-            background-color: #1c2a44;
-            color: white;
-            text-align: left;
-            padding: 8px;
-            border: 1px solid #dddddd;
-        }
-
-        td {
-            background-color: white;
-            text-align: left;
-            padding: 8px;
-            border: 1px solid #dddddd;
-        }
-
-        .Search_Bar {
-            position: absolute;
-            width: 250px;
-
-            top: 200px;
-            right: 150px;
-            border: solid #1c2a44;
-            background-color: #1c2a44;
-            border: none;
-
-        }
-
-        .Search_Bar input {
-            width: 100%;
-            padding: 5px;
-
-        }
-
-        .button {
-            position: absolute;
-            width: 250px;
-            height: 30px;
-            left: 20px;
-        }
-
-        img {
-            width: 100%;
-            height: 100%;
-            margin: 0;
-
-        }
-
-        .Search_Bar button {
-            position: absolute;
-            top: 0px;
-            right: -103px;
-            height: 30px;
-            border: none;
-            padding: 10px 20px;
-            background-color: #fbb844;
-            color: white;
-            transition: all 1s;
-        }
-
-        button:hover {
-            background-color: white;
-            color: #1c2a44;
-        }
-        .buttons{
-            position: fixed;
-            bottom: 155px;
-            right: 146px;
-            
-        }
-        .buttons button{
-            padding: 10px;
-            padding: 10px;
-            background-color: #fbb844;
-            border: 1px solid  black;
-            color: white;
-            width: 80px;
-            cursor: pointer;
-            font-size: 18px;
-            transition: 0.5s;
-        }
-        .buttons button:hover{
-            background-color: white;
-            color: #fbb844;
-        }
-        
-    </style>
 </head>
 
 <body>
@@ -151,7 +22,7 @@
                 <a href="Login.html">Login</a>
             </div>
         </nav>
-        <table>
+        <table class="table2">
             <tr>
                 <th>
                 <th>Name</th>
@@ -196,17 +67,17 @@
 
 
 
-        <div class="Search_Bar">
+        <div class="Search_Bar2">
             <input type="text" placeholder="Search..">
-            <button>
+            <button class="btnUpdate">
                 Search
             </button>
         </div>
         
 
         <div class="buttons">
-            <button>Update</button> &nbsp;
-            <button>Delete</button><br>
+            <button class="btnUpdate">Update</button> &nbsp;
+            <button class="btnUpdate">Delete</button><br>
         </div>
     </div>
 
