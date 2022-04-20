@@ -4,7 +4,7 @@ function login(){
     
     if(e=="nouran" && p=="01145062539")
     {
-        location.href="";
+        location.href="home.html";
     }
     
 }

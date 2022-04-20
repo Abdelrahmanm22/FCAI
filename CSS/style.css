@@ -29,7 +29,65 @@ nav .elements{
     font-size: 20px;
 }
 
+/* style main------------------------------------------- */
+.projects{
+    width: 1320px;
+    height: 606px;
+    /* background-color: #0c1d25; */
+    margin: auto;
+    margin-top: 150px;
+}
+.projects h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: #161616;
+}
+.pj-items{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pj-items .item{
+    width: 290px;
+    height: 396px;
+    background-color: #ffffff;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+}
+.pj-items .item:hover{
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    box-shadow: 20px 20px 50px grey;
+}
+.pj-items .item img{
+    width: 100%;
+    height: 50%;
+}
+.pj-items .item p{
+    color: #3495fb;
+    font-size: 15px;
+    padding-left: 20px;
+    text-transform: uppercase;
 
+}
+.pj-items .item p span{
+    /* content: "&#9734"; */
+    padding-right: 10px;
+    float: right;
+    color:#0c1d25 ;
+}
+.pj-items .item h3{
+    font-size: 25px;
+    padding-left: 20px;
+}
+/* style main------------------------------------------- */
 
 /* style home-------------------------------------------------------------------------------------------------- */
 
